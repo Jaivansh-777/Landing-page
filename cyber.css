@@ -216,3 +216,26 @@ html, body {
     overflow-x: hidden;
     overflow-y: auto;
 }
+/* 📲 Tablet */
+@media (min-width: 769px) and (max-width: 1024px){
+    .content{
+        margin-left: 5%;
+    }
+
+    .content h1{
+        font-size: 3rem;
+    }
+
+    nav{
+        gap: 1.5rem;
+    }
+
+    .robot-3d{
+        width: 300px;
+        right: 0;
+        top: 20%;
+    }
+}
+.content h1{
+    font-size: clamp(2rem, 5vw, 4rem);
+}
